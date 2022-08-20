@@ -1,0 +1,23 @@
+{
+  "name": "nibbabot",
+  "version": "1.0.0",
+  "description": "Random discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/LenC08/NibbaBot"
+  },
+  "author": "LenC08",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "discord.js": "^14.2.0",
+    "node": "^16.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0"
+  }
+}
