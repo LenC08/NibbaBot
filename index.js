@@ -4,6 +4,7 @@ const { Client, Collection, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
 const eventsPath = path.join(__dirname, 'events');
 const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
+const api_key = "81118c997285a4533bdac137c4818a55cdb5ffc9880ab4ba1e5a8cece77123b2"
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -41,6 +42,9 @@ for (const file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+
+
+
 
 
 client.login(token);

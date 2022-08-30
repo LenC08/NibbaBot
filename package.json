@@ -14,8 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
     "discord.js": "^14.2.0",
-    "node": "^16.17.0"
+    "node": "^16.17.0",
+    "undici": "^5.10.0"
   },
   "devDependencies": {
     "eslint": "^8.22.0"
